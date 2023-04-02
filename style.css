@@ -41,12 +41,18 @@ nav ul li a {
     font-size: 0.875rem;
     font-weight: 500;
 }
+/* nav ul li a i{
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(229, 228, 228);
+} */
 
 main {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 500px;
+    height: 550px;
+    /* border-bottom: 0; */
     /* align-items: center; */
     /* margin-top: 20px; */
     background: #363768;
@@ -55,7 +61,7 @@ main {
 }
 
 .container {
-    margin-top: 80px;
+    margin-top: 150px;
     
 }
 
@@ -267,11 +273,11 @@ main {
     font-style: italic;
 }
 
-/* container 4 start */
+             /* container 4 start */
 
    
 .container4{
-    height: 140vh;
+    height: 130vh;
     background-color: rgb(252, 249, 249);
 
 
@@ -289,4 +295,153 @@ main {
     font-size: 20px;
     color: #777;
     padding: 0 10%;
+}
+
+
+/* today */
+
+.container4 .main-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+.main-box .box1 .box-content{
+    background-color: #3f4079;
+    color: #fff;
+    border-radius: 3px;
+    padding: 35px 90px;
+    margin: 0 20px;
+    text-align: center;
+    /* font-size: 20px; */
+}
+ .box-content h3{
+    /* font-weight: 500; */
+    color: #74d1c6;
+    padding-top: 15px;
+}
+
+ol{
+    width: 50%;
+    margin-left: 20px;
+}
+ol li{
+    list-style: none;
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 183%;
+    margin: 8px 0;
+    /* padding-left: 50px; */
+    padding-top: 10px;
+    background-color: white;
+    box-shadow: 5px 2px 5px rgb(239, 239, 239);
+    font-size: 15px;
+    color: #222222;
+    border-radius: 5px;
+} 
+ol li:hover{
+    cursor: pointer;
+    background-color: #e74e84;
+    height: 42px;
+    width: 187%;
+    font-size: 17px;
+    transition: 0.5s;
+}
+ol li strong{
+    padding: 4px 6px;
+    background-color: rgb(239, 238, 238);
+    margin-right: 18px;
+    margin-left: 15px;
+    color: rgb(123, 123, 123);
+    font-size: 13px;
+    border-radius: 5px;
+}
+.box-content i {
+/* justify-content: center;     */
+  font-size: 35px;
+    color: #fff;
+}
+
+/* container5 start */
+
+.container5{
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background: #3f4079 url(http://www.ansonika.com/findoctor/img/hero_bg_1.svg) repeat fixed;
+    padding: 90px 0 60px 0;
+    color: #fff;
+}
+ 
+.container5 .img img{
+    width: 500px;
+    height: 433px;
+}
+.text4 small{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 0.8125rem;
+    opacity: 0.6;
+}
+.container5 .text4 h1{
+    font-size: 2.3rem;
+}
+.container5 .text4 h1 strong{
+    color: #fff02a;
+}
+.container5 .text4 p{
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+.text4 .small-img{
+    padding-top: 55px;
+    padding-left: 10px;
+}
+
+/* footer start */
+
+.footer{
+    height: 45vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+    border-bottom: 1px solid rgb(231, 229, 229);
+}
+
+.footer .list img{
+     width: 163px;
+    height: 36px;
+    margin-left: -100px;
+}
+.list h5{
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 20px; 
+}
+.list p{
+    line-height: 35px;
+    color: #777;
+    font-size: 15px;
+}
+.list i{
+    padding: 0 10px;
+}
+.list i:hover{
+    cursor: pointer;
+    color: #e74e84;
+}
+
+.last-container{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.last-container p{
+    margin: 0 40px;
+    color: #777;
+
 }
